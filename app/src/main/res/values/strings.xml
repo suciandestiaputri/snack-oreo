@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">sap-oreo</string>
+    <string name="title_welcome">Welcome</string>
+    <string name="btn_my_project">My Project</string>
+
+    <string name="snack_title">Oreo Vanilla</string>
+    <string name="snack_desc">Oreo adalah biskuit lapis isi krim vanila yang lezat dan ikonik dengan cita rasa cokelat pekat khas dipadukan krim lembut.</string>
+
+    <string name="section_variants">Varian Rasa Populer:</string>
+    <string name="variants_list">• Oreo Original Vanilla\n• Oreo Chocolate Creme\n• Oreo Strawberry Creme\n• Oreo Peanut Butter &amp; Chocolate\n• Oreo Red Velvet\n• Oreo Ice Cream Blueberry\n• Oreo Double Stuf</string>
+</resources>
