@@ -21,5 +21,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, DetailSnackActivity::class.java)
             startActivity(intent)
         }
+        binding.btnInfoSawit.setOnClickListener {
+            val intent = Intent(this, SawitInfoActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -6,39 +6,88 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/card_bg"
     android:padding="24dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvWelcome"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/title_welcome"
-        android:textColor="@color/text_dark"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:fontFamily="@font/originalsurfer_regular"
-        app:layout_constraintBottom_toTopOf="@+id/btnMyProject"
+    <!-- Logo SITOSA -->
+    <ImageView
+        android:id="@+id/ivLogoSawit"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_sitosa"
+        android:contentDescription="Logo SITOSA"
+        app:layout_constraintBottom_toTopOf="@+id/tvAppTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
 
+    <!-- Judul Aplikasi Sesuai Grand Design -->
+    <TextView
+        android:id="@+id/tvAppTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="SITOSA"
+        android:textColor="#1C290D"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/originalsurfer_regular"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/tvAppSubtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogoSawit" />
+
+    <!-- Subtitle Aplikasi -->
+    <TextView
+        android:id="@+id/tvAppSubtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Sistem Informasi Toke Sawit"
+        android:textColor="#676F53"
+        android:textSize="14sp"
+        android:fontFamily="@font/originalsurfer_regular"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnMyProject"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAppTitle" />
+
+    <!-- Tombol 1: My Project -->
     <Button
         android:id="@+id/btnMyProject"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginTop="28dp"
-        android:backgroundTint="@color/oreo_blue"
-        android:text="@string/btn_my_project"
+        android:backgroundTint="#005B94"
+        android:text="MY PROJECT"
+        android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnInfoSawit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAppSubtitle" />
+
+    <!-- Tombol 2: Info Toke Sawit -->
+    <Button
+        android:id="@+id/btnInfoSawit"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1C290D"
+        android:text="INFO TOKE SAWIT"
+        android:textColor="#FEFAE0"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/originalsurfer_regular"
         app:cornerRadius="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvWelcome" />
+        app:layout_constraintTop_toBottomOf="@+id/btnMyProject" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,4 +6,6 @@
     <color name="card_bg">#F4F7FB</color>
     <color name="text_dark">#1E293B</color>
     <color name="text_secondary">#64748B</color>
+    <color name="sawit_dark_green">#1C290D</color>
+    <color name="sawit_cream">#FEFAE0</color>
 </resources>
