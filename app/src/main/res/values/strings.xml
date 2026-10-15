@@ -11,4 +11,11 @@
 
     <string name="section_variants">Varian Rasa Populer:</string>
     <string name="variants_list">• Oreo Original Vanilla\n• Oreo Chocolate Creme\n• Oreo Strawberry Creme\n• Oreo Peanut Butter &amp; Chocolate\n• Oreo Red Velvet\n• Oreo Ice Cream Blueberry\n• Oreo Double Stuf</string>
+
+    <string name="profile_name">Suci Andestia Putri</string>
+    <string name="profile_hobby">Bernyanyi</string>
+    <string name="profile_strength">Cepat beradaptasi dengan dunia teknologi</string>
+    <string name="profile_sosmed">suciandestia</string>
+
+
 </resources>
