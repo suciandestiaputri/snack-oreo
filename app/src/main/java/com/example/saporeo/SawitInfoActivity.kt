@@ -34,7 +34,6 @@ class SawitInfoActivity : AppCompatActivity() {
             settings.domStorageEnabled = true
             loadUrl("https://www.infosawit.com/")
         }
-
         // 3. Efek Toolbar hide/show saat di-scroll
         binding.webView.setOnScrollChangeListener { _, _, scrollY, _, oldScrollY ->
             if (scrollY > oldScrollY) {
@@ -43,7 +42,6 @@ class SawitInfoActivity : AppCompatActivity() {
                 binding.appBar.setExpanded(true, true)
             }
         }
-
         // 4. Penanganan Back Button Modern
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {

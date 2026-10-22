@@ -31,10 +31,10 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
+        <!-- BaseActivity yang baru menggantikan MainActivity -->
         <activity
-            android:name=".MainActivity"
+            android:name=".BaseActivity"
             android:exported="false"
-            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
